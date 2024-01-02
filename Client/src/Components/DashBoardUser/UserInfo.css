@@ -1,0 +1,165 @@
+.usercontainerbackgroungimage{
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background: url('./src/Components/DashBoardUser/assets/pxfuel (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userinfocontainer{
+    width: 90%;
+    height: 90vh;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 #1f26875e;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba(142, 142, 142, 0.369);
+overflow: hidden;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.greetingsSection{
+    width: 100%;
+    height: 70px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+}
+.userinfocontainerwithsidebarandposts{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+}
+.sideBarMenu{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.userinfoPoststotal{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.sideHome,.sideposts,.sideLogout{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+.sideHome:hover{
+    background-color: rgb(7, 10, 202);
+    cursor: pointer;
+    color: white;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+}
+.sideposts:hover{
+    background-color: rgb(7, 10, 202);
+    cursor: pointer;
+    color: white;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+}
+.sideLogout:hover{
+    background-color: rgb(7, 10, 202);
+    cursor: pointer;
+    color: white;
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+}
+.UserEmailH1{
+    width: 640px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 2px solid rgb(255, 254, 254);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: azure;
+    text-overflow: ellipsis;
+}
+.UserNameH1,.UserLastH1{
+    display: inline-block;
+    border: 2px solid rgb(255, 254, 254);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: azure;
+    
+}
+.Link{
+    color: none;
+    text-decoration: none;
+}
+
+.userinfo_more_about_posts{
+    width: 90%;
+    height: 380px;
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;padding: 10px 0px 0px 10px;
+}
+.inner_span__{
+    width: 100%;
+    height: 80px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    top:-80px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 25px;
+    
+}
+.delete_icon_post{
+    display:none;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.edit_icon_post{
+    display:none;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+.show_the_options{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}

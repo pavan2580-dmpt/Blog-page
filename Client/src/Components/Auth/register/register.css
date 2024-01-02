@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+Link{
+    color: none;
+    text-decoration: none;
+}
+.create{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.dot{
+    color: rgb(130, 130, 255);
+}
+.para{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Log{
+    color: rgb(5, 206, 252);
+}
+.register_container{
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/register.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+   
+  
+
+}
+.sub_divisions_register{
+    width: 600px;
+    height: 600px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+.Name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name{
+    width: 250px;
+    height: 50px;
+    background: rgba( 34, 33, 82, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.name:hover{
+    background: rgba(224, 224, 235, 0.8);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    color: black;
+}
+.data:hover{
+    background: rgba(224, 224, 235, 0.8);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+}
+
+.Data{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.data{
+    width: 520px;
+    height: 60px;
+    background: rgba( 34, 33, 82, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.Submit_btn{
+    width: 500px;
+    height: 5dvh;
+    border-radius: 30px;
+    border: none;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    margin-top: 30px;
+    font-size: 30px;
+    background: rgba( 72, 71, 255, 0.8 );
+   color: white;
+   cursor: pointer;
+   transition: 1s;
+
+}
+.Submit_btn:hover{
+    box-shadow:4px 4px 30px 20px rgba( 31, 38, 135, 0.37 ) ;
+
+}
