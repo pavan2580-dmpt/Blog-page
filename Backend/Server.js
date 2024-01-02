@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
     res.send("Hello..")
 })
 app.use('/uploads', express.static(__dirname + "/uploads"));
-mongoose.connect('mongodb+srv://pavanganesh:pavanganesh@cluster0.axrs7n2.mongodb.net/Blog?retryWrites=true&w=majority').then(
+mongoose.connect('process.env.MOGO_URL').then(
     ()=>{
         console.log("Sucessfully connected to the dataBase ")
     }
